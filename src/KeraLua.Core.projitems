@@ -23,6 +23,5 @@
     <Compile Include="$(MSBuildThisFileDirectory)LuaStatus.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)LuaType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NativeMethods.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Properties\AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
