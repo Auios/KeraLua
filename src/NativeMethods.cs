@@ -420,7 +420,7 @@ namespace KeraLua
         internal static extern void luaL_requiref(lua_State luaState, string moduleName, lua_CFunction openFunction, int global);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl)]
-        internal static extern void luaL_setfuncs(lua_State luaState, [In] LuaRegister [] luaReg, int numUp);
+        internal static extern void luaL_setfuncs(lua_State luaState, [In] LuaRegister[] luaReg, int numUp);
 
         [DllImport(LuaLibraryName, CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         internal static extern void luaL_setmetatable(lua_State luaState, string tName);
